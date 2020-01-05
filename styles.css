@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);
+}
+
+h3 {
+    margin: 0;    
+}
+
+.top-text {
+    line-height: 3rem;
+}
+
+.top-text .gray-text {
+    font-weight: 300;
+    color: hsl(229, 6%, 66%);
+}
+
+.top-subtext {
+    color: rgb(210, 210, 210);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.middle-section {
+    margin-top: 4rem;
+}
+
+.middle-section .list {
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.middle-section .list li {
+    display: inline-block;
+    margin: 0 2rem 0 0 ;
+    padding: 0;
+    width: 25%;
+}
+.middle-section .list li:first-child {
+    position: relative;
+    bottom: 8.5rem;
+}
+.middle-section .list li:last-child {
+    position: relative;
+    bottom: 8.5rem;
+    margin-right: 0;
+}
+
+.middle-section .list li div p{
+    margin: 2rem 0 0 2rem;
+    width: 75%;
+}
+
+.middle-section div {
+    text-align: left;
+    border-radius: 2%;
+    box-shadow: 0 3px 10px 1px rgb(167, 167, 167);
+    height: 15rem;
+    color: rgb(210, 210, 210);
+    font-size: 0.8rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.middle-section div img {
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.small-heading {
+    margin-bottom: 0.9rem;
+    color: hsl(234, 12%, 34%);
+    display: block;
+    font-size: 1.1rem;
+}
+
+.supervisor {
+    border-top: solid hsl(180, 62%, 55%);
+}
+.team-builder {
+    border-top: solid hsl(0, 78%, 62%);
+    margin-bottom: 2rem;
+}
+.karma {
+    border-top: solid hsl(34, 97%, 64%);
+}
+.calculator {
+    border-top: solid hsl(212, 86%, 64%);
+}
+
+.footer {
+    line-height: 2;
+    margin-top: 4rem;
+    padding: 1%;
+    color: rgb(211, 211, 211);
+    background-color: #545f6a;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd369;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ 
+@media only screen and (max-width: 872px) {
+    .top-subtext {
+        width: 70%;
+    }
+    .middle-section .list{
+        margin: 2rem;
+        display: block;
+    }
+    .middle-section .list li{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .middle-section .list li:first-child {
+        position: static;
+    } 
+    .middle-section .list li:last-child {
+        margin-top: 11rem;
+        position: static;
+    } 
+
+    .middle-section div {
+        font-size: 0.9rem;
+    }
+    .small-heading {
+        font-size: 1.5rem;
+    }
+    .middle-section div img {
+        width: 13%;
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+    }
+    
+    .footer {
+        padding:  2%;
+    }
+
+}
